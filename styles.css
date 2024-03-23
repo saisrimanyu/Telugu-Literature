@@ -1,0 +1,86 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0 0;
+    text-align: center;
+
+}
+
+/* h1 {
+    background-image: url('headingbg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 75px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+} */
+
+h2 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* h3 {
+    color: #fff;
+    text-align: left;
+}  */
+
+.container {
+    background-image: url('headingbg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    text-align: left;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color: #23297A;}
+  #News {background-color: rgb(58, 119, 58);}
+  #Contact {background-color: rgb(119, 119, 119);}
+  #About {background-color: rgb(137, 106, 76);}
+
